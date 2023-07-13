@@ -1,46 +1,50 @@
 import React from "react";
 
 function Header() {
+  function scrollToTestDiv(id){
+    const divElement = document.getElementById(id);
+    divElement.scrollIntoView({behavior: 'smooth' });
+  }
   return (
     <header className="col-span-4 bg-white py-2 flex justify-between items-center w-full px-8 lg:px-0">
       <img className="h-10" src="/logo.png" alt="" />
-      <div className="flex gap-8 font-mono">
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+      <div className="flex gap-8">
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("info")}
         >
           Home
-        </a>
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+        </p>
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("skill")}
         >
           Skill
-        </a>
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+        </p>
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("interest")}
         >
           Interest
-        </a>
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+        </p>
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("images")}
         >
           Images
-        </a>
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+        </p>
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("event")}
         >
           Event
-        </a>
-        <a
-          className="hover:text-sky-600 duration-500 hover:underline underline-offset-4 transition-all"
-          href=""
+        </p>
+        <p
+          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          onClick={() =>scrollToTestDiv("project")}
         >
           Project
-        </a>
+        </p>
       </div>
     </header>
   );

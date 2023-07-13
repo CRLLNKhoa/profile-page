@@ -22,7 +22,7 @@ function Images() {
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
   return (
     <>
-      <section className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full p-4">
+      <section id="images" className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full p-4">
         <h1 className="font-bold">Ảnh</h1>
         <div className="container mx-auto mt-4">
           <div className="-m-1 flex flex-wrap md:-m-2">

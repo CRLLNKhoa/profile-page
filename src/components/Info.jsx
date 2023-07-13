@@ -5,8 +5,10 @@ import {FaShare} from "react-icons/fa"
 
 function Info() {
   return (
-    <section className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full">
-      <div class="h-[160px] bg-gradient-to-r from-pink-200 to-blue-200"></div>
+    <section id="info" className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full">
+      <div className="h-[160px] bg-gradient-to-r from-pink-200 to-blue-200">
+        <img className="w-full h-full object-cover" src="/src.gif" alt="" />
+      </div>
       <div className="relative pt-16 pl-8 pb-8 flex flex-col justify-start gap-2">
         <div className="rounded-full overflow-hidden border-4 border-white absolute -top-1/2 translate-y-[56px] left-8">
           <img className="w-28 h-28 rounded-full" src="/aaa.jpg" alt="" />
