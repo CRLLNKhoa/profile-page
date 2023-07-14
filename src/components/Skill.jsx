@@ -4,7 +4,7 @@ import { Chip } from "@material-tailwind/react";
 function Skill() {
   return (
     <section id="skill" className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full p-4">
-      <h1 className="font-bold text-[20px]">Kỉ năng & Công Cụ</h1>
+      <h1 className="font-bold text-[20px]">Kỹ năng & Công Cụ</h1>
       <div className="flex gap-4 items-center mt-4">
         <div className="flex gap-4 flex-wrap">
           <Chip variant="outlined" size="sm" value="HTML" />
