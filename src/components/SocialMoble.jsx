@@ -3,7 +3,7 @@ import React from "react";
 function SocialMoble() {
   return (
     <section className="p-4 justify-evenly flex flex-col col-span-4 lg:hidden shadow-lg">
-      <h1 className="font-bold mb-4">Các liên kết mạng xã hội của tôi</h1>
+      <h1 className="font-bold mb-4 text-[20px]">Các liên kết mạng xã hội của tôi</h1>
       <div className="flex flex-wrap gap-4">
         <a
           target="_blank"

@@ -6,7 +6,7 @@ function Book() {
       id="book"
       className="bg-white rounded-lg shadow-lg font-mono overflow-hidden w-full p-4"
     >
-      <h1 className="font-bold mb-14">Sách đọc gần đây</h1>
+      <h1 className="font-bold mb-14 text-[20px]">Sách đọc gần đây</h1>
       <div className="grid grid-cols-5 gap-4 mt-4 pb-2">
         <div className="col-span-2 group cursor-pointer lg:col-span-1">
           <div className="h-[120px] bg-[#F8BACF] flex items-center justify-center rounded-lg">

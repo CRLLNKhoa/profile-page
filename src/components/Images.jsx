@@ -23,7 +23,7 @@ function Images() {
   return (
     <>
       <section id="images" className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full p-4">
-        <h1 className="font-bold">Ảnh</h1>
+        <h1 className="font-bold text-[20px]">Ảnh</h1>
         <div className="container mx-auto mt-4">
           <div className="-m-1 flex flex-wrap md:-m-2">
             <div className="flex w-1/2 flex-wrap">

@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import MenuMoble from "@/components/MenuMoble";
 import Social from "@/components/Social";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";

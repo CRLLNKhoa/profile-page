@@ -17,49 +17,49 @@ function Header() {
       <img className="h-10" src="/logo.png" alt="" />
       <div className="hidden lg:flex gap-8">
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("info")}
         >
           Home
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("skill")}
         >
           Skills
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("interest")}
         >
           Interests
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("images")}
         >
           Images
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("event")}
         >
           Events
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("book")}
         >
           Books
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("playlist")}
         >
           Playlists
         </p>
         <p
-          className="hover:text-blue-600 duration-500 hover:underline underline-offset-4 transition-all"
+          className="hover:text-blue-600 cursor-pointer duration-500 hover:underline underline-offset-4 transition-all"
           onClick={() => scrollToTestDiv("project")}
         >
           Project

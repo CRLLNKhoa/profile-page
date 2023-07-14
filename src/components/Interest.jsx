@@ -4,7 +4,7 @@ import React from 'react'
 function Interest() {
   return (
     <section id='interest' className="bg-white shadow-md rounded-lg font-mono overflow-hidden w-full p-4">
-        <h1 className="font-bold">Sở Thích</h1>
+        <h1 className="font-bold text-[20px]">Sở Thích</h1>
         <div className='flex gap-4 mt-4 flex-wrap'>
         <Chip variant="outlined" value="💥 Đọc Sách" />
         <Chip variant="outlined" value="📸 Nhiếp Ảnh Gia Thiên Nhiên" />

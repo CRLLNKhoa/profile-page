@@ -3,7 +3,7 @@ import React from "react";
 function Social() {
   return (
     <section className="pt-0  hidden lg:flex flex-col col-span-4 lg:col-span-1 mt-5 h-[40vh] sticky top-4">
-      <h1 className="font-bold mb-4">Các liên kết mạng xã hội của tôi</h1>
+      <h1 className="font-bold mb-4 text-[16px]">Các liên kết mạng xã hội của tôi</h1>
       <div className="flex flex-col gap-4">
         <a
           target="_blank"

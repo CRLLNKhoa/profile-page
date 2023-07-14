@@ -8,22 +8,33 @@ import Book from '@/components/Book'
 import Music from '@/components/Music'
 import SocialMoble from '@/components/SocialMoble'
 import Project from '@/components/Project'
+import MyHead from '@/components/MyHead'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
   return (
-    <main className='flex flex-col gap-8 pb-12'>
-      <Info />
-      <SocialMoble />
-      <Skill />
-      <Interest />
-      <Images />
-      <Event />
-      <Book />
-      <Music />
-      <Project />
-    </main>
+   <>
+       <MyHead
+        title="Lương Khoa"
+        description="Website cá nhân của Lương Khoa"
+        image="/aaa.jpg"
+        url="https://luongkhoa.vercel.app/"
+      />
+      <main className='flex flex-col gap-8 pb-12'>
+        <Info />
+        <SocialMoble />
+        <Skill />
+        <Interest />
+        <Images />
+        <Event />
+        <Book />
+        <Music />
+        <Project />
+        <Footer />
+      </main>
+   </>
   )
 }
