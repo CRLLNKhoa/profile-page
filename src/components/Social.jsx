@@ -2,7 +2,7 @@ import React from "react";
 
 function Social() {
   return (
-    <section className="pt-0 flex flex-col col-span-4 lg:col-span-1 mt-7 h-[40vh] sticky top-4">
+    <section className="pt-0  hidden lg:flex flex-col col-span-4 lg:col-span-1 mt-5 h-[40vh] sticky top-4">
       <h1 className="font-bold mb-4">Các liên kết mạng xã hội của tôi</h1>
       <div className="flex flex-col gap-4">
         <a
@@ -104,6 +104,23 @@ function Social() {
               Cá heo chinn
             </h1>
             <p className="text-[12px]">Kết bạn và chơi game với tôi</p>
+          </div>
+        </a>
+
+        <a
+          target="_blank"
+          href="https://lienket.vercel.app/luongkhoa"
+          className="flex items-center gap-2 hover:bg-gray-200 py-2 px-2 rounded-lg duration-500"
+        >
+          <div className="border-2 border-white">
+            <img className="w-8" src="/link.jpg" alt="" />
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-[15px] font-bold flex items-center gap-1">
+              <img src="/aaa.jpg" alt="ava" className="h-4 rounded-full w-4" />{" "}
+              Lương Khoa
+            </h1>
+            <p className="text-[12px]">Các liên kết của tôi</p>
           </div>
         </a>
 

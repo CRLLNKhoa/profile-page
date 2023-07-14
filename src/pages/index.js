@@ -5,6 +5,9 @@ import Interest from '@/components/Interest'
 import Images from '@/components/Images'
 import Event from '@/components/Event'
 import Book from '@/components/Book'
+import Music from '@/components/Music'
+import SocialMoble from '@/components/SocialMoble'
+import Project from '@/components/Project'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,11 +16,14 @@ export default function Home() {
   return (
     <main className='flex flex-col gap-8 pb-12'>
       <Info />
+      <SocialMoble />
       <Skill />
       <Interest />
       <Images />
       <Event />
       <Book />
+      <Music />
+      <Project />
     </main>
   )
 }
