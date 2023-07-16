@@ -9,7 +9,7 @@ function Event() {
                 <div className='bg-red-600 w-8 h-8 flex justify-center items-center rounded-full'>
                     <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/u7xRLKQS6N1.png" alt="" />
                 </div>
-                <h2 className='text-center text-[14px] px-8 font-semibold'>Đang hẹn hò với Ng***n Th*nh P****g</h2>
+                <h2 className='text-center text-[14px] px-8 font-semibold'>Đang hẹn hò với N****n T***h P****g</h2>
                 <p className='text-[13px]'>4 tháng 2</p>
             </div>
             <div className='col-span-3 lg:col-span-1 flex cursor-pointer hover:bg-gray-200 duration-500 border-2 flex-col items-center py-8 gap-2 rounded-lg'>
